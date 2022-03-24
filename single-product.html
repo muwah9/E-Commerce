@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Карточка Товара</title>
+	<meta charset="UTF-8">
+	<meta content="telephone=no" name="format-detection">
+	<meta content="E-commerce Internet Catalog, Интернет магазин одежды, одежда" name="description">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link href="css/style.min.css?_v=20220324205903" rel="stylesheet">
+	<link href="favicon.ico" rel="shortcut icon">
+	<link href="img/favicon_io/favicon-apple-touch.png" rel="apple-touch-icon">
+	<link href="manifest.webmanifest" rel="manifest">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<nav class="header__navigation header__navigation--open header__navigation--no-js">
+					<a class="header__logo" href="home.html">
+						<picture><source srcset="img/logo.webp" type="image/webp"><img alt="logo" src="img/logo.png"></picture>
+					</a>
+					<ul class="header__menu">
+						<li class="header__item">
+							<a class="header__link" href="home.html">Home</a>
+						</li>
+						<li class="header__item">
+							<a class="header__link" href="shop.html">Shop</a>
+						</li>
+						<li class="header__item">
+							<a class="header__link" href="blog.html">Blog</a>
+						</li>
+						<li class="header__item">
+							<a class="header__link" href="about.html">About</a>
+						</li>
+						<li class="header__item">
+							<a class="header__link" href="contact.html">Contact</a>
+						</li>
+						<li class="header__item header__item--cart">
+							<a class="header__link header__link--cart" href="cart.html">
+								<svg class="ionicon" height="24" viewBox="0 0 512 512" width="24" xmlns="http://www.w3.org/2000/svg">
+									<title>Cart</title>
+									<circle cx="176" cy="416" fill="none" r="16" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+									<circle cx="400" cy="416" fill="none" r="16" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+									<path d="M48 80h64l48 272h256" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+									<path d="M160 288h249.44a8 8 0 007.85-6.43l28.8-144a8 8 0 00-7.85-9.57H128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+								</svg>
+							</a>
+						</li>
+					</ul>
+					<a class="header__cart" href="cart.html">
+						<svg class="ionicon" height="24" viewBox="0 0 512 512" width="24" xmlns="http://www.w3.org/2000/svg">
+							<title>Cart</title>
+							<circle cx="176" cy="416" fill="none" r="16" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+							<circle cx="400" cy="416" fill="none" r="16" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+							<path d="M48 80h64l48 272h256" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+							<path d="M160 288h249.44a8 8 0 007.85-6.43l28.8-144a8 8 0 00-7.85-9.57H128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+						</svg>
+					</a>
+					<button class="header__button icon-menu">
+						<span></span>
+					</button>
+				</nav>
+			</div>
+		</header>
+
+		<main class="page">
+			<section class="product-detail">
+				<div class="product-detail__container">
+					<h1 class="product-detail__head-title visually-hidden">Product Detail Page</h1>
+					<div class="product-detail__images-box">
+						<picture><source srcset="img/products/f1.webp" type="image/webp"><img alt="product image" class="main-image" src="img/products/f1.jpg"></picture>
+						<ul class="product-detail__list">
+							<li class="product-detail__item">
+								<picture><source srcset="img/products/f1.webp" type="image/webp"><img alt="little preview" class="small-image" src="img/products/f1.jpg"></picture>
+							</li>
+							<li class="product-detail__item">
+								<picture><source srcset="img/products/f2.webp" type="image/webp"><img alt="little preview" class="small-image" src="img/products/f2.jpg"></picture>
+							</li>
+							<li class="product-detail__item">
+								<picture><source srcset="img/products/f3.webp" type="image/webp"><img alt="little preview" class="small-image" src="img/products/f3.jpg"></picture>
+							</li>
+							<li class="product-detail__item">
+								<picture><source srcset="img/products/f4.webp" type="image/webp"><img alt="little preview" class="small-image" src="img/products/f4.jpg"></picture>
+							</li>
+						</ul>
+					</div>
+					<div class="product-detail__description">
+						<p class="product-detail__tag">Home/T-shirts</p>
+						<h3 class="product-detail__name">Men's Fashion T-shirt</h3>
+						<p class="product-detail__price">
+							$139
+						</p>
+						<select class="product-detail__select">
+							<option>Select Size</option>
+							<option>S</option>
+							<option>M</option>
+							<option>L</option>
+							<option>XL</option>
+						</select>
+						<label class="product-detail__label" for="number">
+							<input class="product-detail__count" id="number" max="10" min="1" type="number" value="1">
+						</label>
+						<button class="product-detail__button">Add to cart</button>
+						<h3 class="product-detail__title">Product Details</h3>
+						<p class="product-detail__text">Oversized T-shirt in cotton jersey. Ribbed crew neck and dropped shoulders.
+							Oversized T-shirt in cotton jersey. Ribbed crew neck and dropped shoulders.
+							Oversized T-shirt in cotton jersey. Ribbed crew neck and dropped shoulders.
+							Oversized T-shirt in cotton jersey. Ribbed crew neck and dropped shoulders.
+							Oversized T-shirt in cotton jersey. Ribbed crew neck and dropped shoulders.</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="products products--single-product">
+				<div class="products__container">
+					<h2 class="products__title">Featured Products</h2>
+					<p class="products__text">Summer Collection New Modern Design</p>
+					<ul class="products__list">
+						<li class="products__item">
+							<div class="products__image">
+								<picture><source srcset="img/products/n1.webp" type="image/webp"><img alt="Product Image" src="img/products/n1.jpg"></picture>
+							</div>
+							<p class="products__brand">adidas</p>
+							<h3 class="products__name">Cartoon Astronaut T-Shirts</h3>
+							<div class="products__rate">
+								<svg class="ionicon" height="24" viewBox="0 0 512 512" width="24" xmlns="http://www.w3.org/2000/svg">
+									<title>Star</title>
+									<path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32" />
+								</svg>
+								<svg class="ionicon" height="24" viewBox="0 0 512 512" width="24" xmlns="http://www.w3.org/2000/svg">
+									<title>Star</title>
+									<path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32" />
+								</svg>
+								<svg class="ionicon" height="24" viewBox="0 0 512 512" width="24" xmlns="http://www.w3.org/2000/svg">
+									<title>Star</title>
+									<path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32" />
+								</svg>
+								<svg class="ionicon" height="24" viewBox="0 0 512 512" width="24" xmlns="http://www.w3.org/2000/svg">
+									<title>Star</title>
+									<path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32" />
+								</svg>
+								<svg class="ionicon" height="24" viewBox="0 0 512 512" width="24" xmlns="http://www.w3.org/2000/svg">
+									<title>Star</title>
+									<path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32" />
+								</svg>
+							</div>
+							<p class="products__price">$78</p>
+							<a class="products__cart" href="#">
+								<svg class="ionicon" height="24" viewBox="0 0 512 512" width="24" xmlns="http://www.w3.org/2000/svg">
+									<title>Cart</title>
+									<circle cx="176" cy="416" fill="none" r="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+									<circle cx="400" cy="416" fill="none" r="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+									<path d="M48 80h64l48 272h256" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+									<path d="M160 288h249.44a8 8 0 007.85-6.43l28.8-144a8 8 0 00-7.85-9.57H128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+								</svg>
+							</a>
+						</li>
+						<li class="products__item">
+							<div class="products__image">
+								<picture><source srcset="img/products/n2.webp" type="image/webp"><img alt="Product Image" src="img/products/n2.jpg"></picture>
+							</div>
+							<p class="products__brand">adidas</p>
+							<h3 class="products__name">Cartoon Astronaut T-Shirts</h3>
+							<div class="products__rate">
+								<svg class="ionicon" height="24" viewBox="0 0 512 512" width="24" xmlns="http://www.w3.org/2000/svg">
+									<title>Star</title>
+									<path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32" />
+								</svg>
+								<svg class="ionicon" height="24" viewBox="0 0 512 512" width="24" xmlns="http://www.w3.org/2000/svg">
+									<title>Star</title>
+									<path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32" />
+								</svg>
+								<svg class="ionicon" height="24" viewBox="0 0 512 512" width="24" xmlns="http://www.w3.org/2000/svg">
+									<title>Star</title>
+									<path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32" />
+								</svg>
+								<svg class="ionicon" height="24" viewBox="0 0 512 512" width="24" xmlns="http://www.w3.org/2000/svg">
+									<title>Star</title>
+									<path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32" />
+								</svg>
+								<svg class="ionicon" height="24" viewBox="0 0 512 512" width="24" xmlns="http://www.w3.org/2000/svg">
+									<title>Star</title>
+									<path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32" />
+								</svg>
+							</div>
+							<p class="products__price">$78</p>
+							<a class="products__cart" href="#">
+								<svg class="ionicon" height="24" viewBox="0 0 512 512" width="24" xmlns="http://www.w3.org/2000/svg">
+									<title>Cart</title>
+									<circle cx="176" cy="416" fill="none" r="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+									<circle cx="400" cy="416" fill="none" r="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+									<path d="M48 80h64l48 272h256" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+									<path d="M160 288h249.44a8 8 0 007.85-6.43l28.8-144a8 8 0 00-7.85-9.57H128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+								</svg>
+							</a>
+						</li>
+						<li class="products__item">
+							<div class="products__image">
+								<picture><source srcset="img/products/n3.webp" type="image/webp"><img alt="Product Image" src="img/products/n3.jpg"></picture>
+							</div>
+							<p class="products__brand">adidas</p>
+							<h3 class="products__name">Cartoon Astronaut T-Shirts</h3>
+							<div class="products__rate">
+								<svg class="ionicon" height="24" viewBox="0 0 512 512" width="24" xmlns="http://www.w3.org/2000/svg">
+									<title>Star</title>
+									<path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32" />
+								</svg>
+								<svg class="ionicon" height="24" viewBox="0 0 512 512" width="24" xmlns="http://www.w3.org/2000/svg">
+									<title>Star</title>
+									<path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32" />
+								</svg>
+								<svg class="ionicon" height="24" viewBox="0 0 512 512" width="24" xmlns="http://www.w3.org/2000/svg">
+									<title>Star</title>
+									<path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32" />
+								</svg>
+								<svg class="ionicon" height="24" viewBox="0 0 512 512" width="24" xmlns="http://www.w3.org/2000/svg">
+									<title>Star</title>
+									<path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32" />
+								</svg>
+								<svg class="ionicon" height="24" viewBox="0 0 512 512" width="24" xmlns="http://www.w3.org/2000/svg">
+									<title>Star</title>
+									<path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32" />
+								</svg>
+							</div>
+							<p class="products__price">$78</p>
+							<a class="products__cart" href="#">
+								<svg class="ionicon" height="24" viewBox="0 0 512 512" width="24" xmlns="http://www.w3.org/2000/svg">
+									<title>Cart</title>
+									<circle cx="176" cy="416" fill="none" r="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+									<circle cx="400" cy="416" fill="none" r="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+									<path d="M48 80h64l48 272h256" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+									<path d="M160 288h249.44a8 8 0 007.85-6.43l28.8-144a8 8 0 00-7.85-9.57H128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+								</svg>
+							</a>
+						</li>
+						<li class="products__item">
+							<div class="products__image">
+								<picture><source srcset="img/products/n4.webp" type="image/webp"><img alt="Product Image" src="img/products/n4.jpg"></picture>
+							</div>
+							<p class="products__brand">adidas</p>
+							<h3 class="products__name">Cartoon Astronaut T-Shirts</h3>
+							<div class="products__rate">
+								<svg class="ionicon" height="24" viewBox="0 0 512 512" width="24" xmlns="http://www.w3.org/2000/svg">
+									<title>Star</title>
+									<path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32" />
+								</svg>
+								<svg class="ionicon" height="24" viewBox="0 0 512 512" width="24" xmlns="http://www.w3.org/2000/svg">
+									<title>Star</title>
+									<path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32" />
+								</svg>
+								<svg class="ionicon" height="24" viewBox="0 0 512 512" width="24" xmlns="http://www.w3.org/2000/svg">
+									<title>Star</title>
+									<path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32" />
+								</svg>
+								<svg class="ionicon" height="24" viewBox="0 0 512 512" width="24" xmlns="http://www.w3.org/2000/svg">
+									<title>Star</title>
+									<path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32" />
+								</svg>
+								<svg class="ionicon" height="24" viewBox="0 0 512 512" width="24" xmlns="http://www.w3.org/2000/svg">
+									<title>Star</title>
+									<path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32" />
+								</svg>
+							</div>
+							<p class="products__price">$78</p>
+							<a class="products__cart" href="#">
+								<svg class="ionicon" height="24" viewBox="0 0 512 512" width="24" xmlns="http://www.w3.org/2000/svg">
+									<title>Cart</title>
+									<circle cx="176" cy="416" fill="none" r="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+									<circle cx="400" cy="416" fill="none" r="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+									<path d="M48 80h64l48 272h256" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+									<path d="M160 288h249.44a8 8 0 007.85-6.43l28.8-144a8 8 0 00-7.85-9.57H128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="newsletters">
+				<div class="newsletters__container">
+					<div class="newsletters__description">
+						<h2 class="newsletters__title">Sing up For Newsletters</h2>
+						<p class="newsletters__text">Get email updates about our latest shop and <span>special offers</span></p>
+					</div>
+					<div class="newsletters__form">
+						<label class="newsletters__label" for="email">
+							<input id="email" name="email" placeholder="Write your Email" type="email">
+						</label>
+						<button class="newsletters__button" type="button">Sign up</button>
+					</div>
+				</div>
+			</section>
+
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__info">
+					<a class="footer__logo" href="#">
+						<picture><source srcset="img/logo.webp" type="image/webp"><img alt="footer logo image" src="img/logo.png"></picture>
+					</a>
+					<ul class="footer__contacts">
+						<li class="footer__contacts-item">
+							<h4 class="footer__contacts-title">Address:</h4>
+							<p class="footer__contacts-text">Saint Patrick 9/3 st, Boston USA</p>
+						</li>
+						<li class="footer__contacts-item">
+							<h4 class="footer__contacts-title">Phone:</h4>
+							<a class="footer__contacts-text" href="tel:+01233889343">+01233889343</a>
+						</li>
+						<li class="footer__contacts-item">
+							<h4 class="footer__contacts-title">Hours:</h4>
+							<p class="footer__contacts-text">10:00 &mdash;18:00 Mon &mdash;Sat</p>
+						</li>
+						<li class="footer__contacts-item">
+							<h4 class="footer__contacts-title">Follow Us</h4>
+							<ul class="footer__socials">
+								<li class="footer__socials-item">
+									<a class="footer__link" href="#">
+										<svg class="ionicon" width="24" height="24" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+											<title>Logo Facebook</title>
+											<path d="M480 257.35c0-123.7-100.3-224-224-224s-224 100.3-224 224c0 111.8 81.9 204.47 189 221.29V322.12h-56.89v-64.77H221V208c0-56.13 33.45-87.16 84.61-87.16 24.51 0 50.15 4.38 50.15 4.38v55.13H327.5c-27.81 0-36.51 17.26-36.51 35v42h62.12l-9.92 64.77H291v156.54c107.1-16.81 189-109.48 189-221.31z" fill-rule="evenodd" />
+										</svg>
+									</a>
+								</li>
+								<li class="footer__socials-item">
+									<a class="footer__link" href="#">
+										<svg class="ionicon" width="24" height="24" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+											<title>Logo Instagram</title>
+											<path d="M349.33 69.33a93.62 93.62 0 0193.34 93.34v186.66a93.62 93.62 0 01-93.34 93.34H162.67a93.62 93.62 0 01-93.34-93.34V162.67a93.62 93.62 0 0193.34-93.34h186.66m0-37.33H162.67C90.8 32 32 90.8 32 162.67v186.66C32 421.2 90.8 480 162.67 480h186.66C421.2 480 480 421.2 480 349.33V162.67C480 90.8 421.2 32 349.33 32z" />
+											<path d="M377.33 162.67a28 28 0 1128-28 27.94 27.94 0 01-28 28zM256 181.33A74.67 74.67 0 11181.33 256 74.75 74.75 0 01256 181.33m0-37.33a112 112 0 10112 112 112 112 0 00-112-112z" />
+										</svg>
+									</a>
+								</li>
+								<li class="footer__socials-item">
+									<a class="footer__link" href="#">
+										<svg class="ionicon" width="24" height="24" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+											<title>Logo Twitter</title>
+											<path d="M496 109.5a201.8 201.8 0 01-56.55 15.3 97.51 97.51 0 0043.33-53.6 197.74 197.74 0 01-62.56 23.5A99.14 99.14 0 00348.31 64c-54.42 0-98.46 43.4-98.46 96.9a93.21 93.21 0 002.54 22.1 280.7 280.7 0 01-203-101.3A95.69 95.69 0 0036 130.4c0 33.6 17.53 63.3 44 80.7A97.5 97.5 0 0135.22 199v1.2c0 47 34 86.1 79 95a100.76 100.76 0 01-25.94 3.4 94.38 94.38 0 01-18.51-1.8c12.51 38.5 48.92 66.5 92.05 67.3A199.59 199.59 0 0139.5 405.6a203 203 0 01-23.5-1.4A278.68 278.68 0 00166.74 448c181.36 0 280.44-147.7 280.44-275.8 0-4.2-.11-8.4-.31-12.5A198.48 198.48 0 00496 109.5z" />
+										</svg>
+									</a>
+								</li>
+								<li class="footer__socials-item">
+									<a class="footer__link" href="#">
+										<svg class="ionicon" width="24" height="24" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+											<title>Logo Youtube</title>
+											<path d="M508.64 148.79c0-45-33.1-81.2-74-81.2C379.24 65 322.74 64 265 64h-18c-57.6 0-114.2 1-169.6 3.6C36.6 67.6 3.5 104 3.5 149 1 184.59-.06 220.19 0 255.79q-.15 53.4 3.4 106.9c0 45 33.1 81.5 73.9 81.5 58.2 2.7 117.9 3.9 178.6 3.8q91.2.3 178.6-3.8c40.9 0 74-36.5 74-81.5 2.4-35.7 3.5-71.3 3.4-107q.34-53.4-3.26-106.9zM207 353.89v-196.5l145 98.2z" />
+										</svg>
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<ul class="footer__menu">
+					<li class="footer__menu-item">
+						<h4 class="footer__menu-title">About</h4>
+					</li>
+					<li class="footer__menu-item">
+						<a class="footer__menu-link" href="#">About Us</a>
+					</li>
+					<li class="footer__menu-item">
+						<a class="footer__menu-link" href="#">Delivery Information</a>
+					</li>
+					<li class="footer__menu-item">
+						<a class="footer__menu-link" href="#">Privacy Policy</a>
+					</li>
+					<li class="footer__menu-item">
+						<a class="footer__menu-link" href="#">Terms & Conditions</a>
+					</li>
+					<li class="footer__menu-item">
+						<a class="footer__menu-link" href="#">Contact Us</a>
+					</li>
+				</ul>
+				<ul class="footer__menu">
+					<li class="footer__menu-item">
+						<h4 class="footer__menu-title">My Account</h4>
+					</li>
+					<li class="footer__menu-item">
+						<a class="footer__menu-link" href="#">Sign in</a>
+					</li>
+					<li class="footer__menu-item">
+						<a class="footer__menu-link" href="#">View Cart</a>
+					</li>
+					<li class="footer__menu-item">
+						<a class="footer__menu-link" href="#">My Wishlist</a>
+					</li>
+					<li class="footer__menu-item">
+						<a class="footer__menu-link" href="#">Track My Order</a>
+					</li>
+					<li class="footer__menu-item">
+						<a class="footer__menu-link" href="#">Help</a>
+					</li>
+				</ul>
+				<ul class="footer__menu">
+					<li class="footer__menu-item">
+						<h4 class="footer__menu-title">Install App</h4>
+					</li>
+					<li class="footer__menu-item">
+						From App Store or Google
+					</li>
+					<li class="footer__menu-item">
+						<a class="footer__menu-link" href="#">
+							<picture><source srcset="img/pay/app.webp" type="image/webp"><img alt="APPLE PAY" src="img/pay/app.jpg"></picture>
+						</a>
+						<a class="footer__menu-link" href="#">
+							<picture><source srcset="img/pay/play.webp" type="image/webp"><img alt="GOOGLE PAY" src="img/pay/play.jpg"></picture>
+						</a>
+					</li>
+					<li class="footer__menu-item">
+						Secured Payment Gateways
+					</li>
+					<li class="footer__menu-item">
+						<picture><source srcset="img/pay/pay.webp" type="image/webp"><img alt="PAY CARDS" src="img/pay/pay.png"></picture>
+					</li>
+				</ul>
+			</div>
+		</footer>
+
+	</div>
+	<!-- 
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+
+	<script src="js/app.min.js?_v=20220324205903"></script>
+</body>
+
+</html>
